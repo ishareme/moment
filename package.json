@@ -1,9 +1,8 @@
 {
   "name": "moment",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "meitu <hmz@meitu.com>",
-  "private": true,
+  "description": "This is a graduation project --- moment",
+  "author": "ShineTomorrow <beheroto@gmail.com>",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
