@@ -1,21 +1,15 @@
-# moment
+# Moment
 
-> A Vue.js project
+This is a graduation project --- moment
 
-## Build Setup
+# Show
 
-``` bash
-# install dependencies
-npm install
+![管理系统](http://oubl6fzsm.bkt.clouddn.com/moment2.gif)
 
-# serve with hot reload at localhost:8080
-npm run dev
+![WebApp](http://oubl6fzsm.bkt.clouddn.com/moment3.gif)
 
-# build for production with minification
-npm run build
+## Article
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+[example](http://f2er.meitu.com/hmz/ClipImageDemo/example)
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+[example](http://f2er.meitu.com/hmz/ClipImageDemo/example)
