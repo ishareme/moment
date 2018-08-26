@@ -4,7 +4,7 @@ This is a graduation project --- moment
 
 # Show
 
-![管理系统](http://oubl6fzsm.bkt.clouddn.com/moment2.gif)
+![image](https://github.com/ishareme/moment/blob/master/GIFName.gif)
 
 ![WebApp](http://oubl6fzsm.bkt.clouddn.com/moment3.gif)
 
