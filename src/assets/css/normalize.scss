@@ -1,0 +1,104 @@
+// normalize.scss
+article,
+aside,
+audio,
+blockquote,
+body,
+button,
+dd,
+div,
+dl,
+dt,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+header,
+hgroup,
+input,
+legend,
+li,
+menu,
+nav,
+ol,
+p,
+pre,
+section,
+td,
+textarea,
+th,
+ul,
+video {
+    margin: 0;
+    padding: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+optgroup,
+th,
+var {
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    *font-size: 100%;
+    outline: none;
+}
+
+fieldset,
+img {
+    border: 0;
+    width: 100%;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+}
+
+input {
+    -webkit-appearance: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+em {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body,
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+}

@@ -1,0 +1,93 @@
+/* move-left-to-right */
+.move-left-to-right-enter-active {
+    animation: moveFromLeft 0.6s ease both;
+}
+.move-left-to-right-leave-active {
+    animation: moveToRight 0.6s ease both;
+}
+@keyframes moveFromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+}
+@keyframes moveToRight {
+    to {
+        transform: translateX(100%);
+    }
+}
+
+/* move-right-to-left */
+.move-right-to-left-enter-active {
+    animation: moveFromRight 0.6s ease both;
+}
+.move-right-to-left-leave-active {
+    animation: moveToLeft 0.6s ease both;
+}
+@keyframes moveFromRight {
+    from {
+        transform: translateX(100%);
+    }
+}
+@keyframes moveToLeft {
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* scale-up-to-up */
+.scale-up-to-up-enter-active {
+    animation: scaleUp 0.7s ease both;
+}
+.scale-up-to-up-leave-active {
+    animation: scaleDownUp 0.7s ease both;
+}
+@keyframes scaleUp {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+}
+@keyframes scaleDownUp {
+    to {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+}
+
+/***************** rotate-carousel ****************/
+.rotate-carousel-top-enter-active {
+    transform-origin: 50% 0%;
+    animation: rotateCarouselTopIn 0.8s both ease;
+}
+.rotate-carousel-top-leave-active {
+    transform-origin: 50% 100%;
+    animation: rotateCarouselTopOut 0.8s both ease;
+}
+@keyframes rotateCarouselTopIn {
+    from {
+        opacity: 0.3;
+        transform: translateY(200%) scale(0.4) rotateX(-65deg);
+    }
+}
+@keyframes rotateCarouselTopOut {
+    to {
+        opacity: 0.3;
+        transform: translateY(-200%) scale(0.4) rotateX(65deg);
+    }
+}
+
+
+@keyframes music {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes musicTr {
+    from{
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(54px);
+    }
+}
